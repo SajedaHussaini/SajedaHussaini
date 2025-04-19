@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            overflow-x: auto; /* Allows horizontal scrolling */
+            white-space: nowrap; /* Prevents images from wrapping */
+            margin: 0;
+            padding: 20px;
+        }
+        .image-container {
+            text-align: center; /* Center the text below images */
+            margin-right: 20px; /* Space between image containers */
+        }
+        img {
+            height: 200px; /* Set a fixed height for images */
+            display: block; /* Ensures the image is treated as a block element */
+        }
+        .description {
+            margin-top: 5px; /* Space between image and description */
+            font-size: 14px; /* Font size for descriptions */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>My Gallery</h1>
+        <div class="gallery">
+            <figure>
+                <img src="img/Afgani Mantu.jpg" alt="Image 1"width="300" height="300">
+                <figcaption>My favorite Mantu dish.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Afghan Bolani_Peraki.jpg" alt="Image 2" width="300" height="300">
+                <figcaption>Delicious Bolani.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Sambosa.jpg" alt="Image 3"width="300" height="300">
+                <figcaption>A refreshing Sambosa.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/Qabeli.jpg" alt="Image 4"width="300" height="300">
+                <figcaption>My favorite Afghani food, Qabali</figcaption>
+            </figure>
+        </div>
+        <p><a href="index.html">Back to Home</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Personal Info Hub</p>
+    </footer>
+</body>
+</html>
+

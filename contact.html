@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <form action="mailto:hussainisajeda1@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea><br><br>
+
+            <fieldset>
+                <legend>Gender:</legend>
+                <label><input type="radio" name="gender" value="male" required> Male</label>
+                <label><input type="radio" name="gender" value="female" required> Female</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interests:</legend>
+                <label><input type="checkbox" name="interests" value="tech"> Technology</label>
+                <label><input type="checkbox" name="interests" value="art"> Art</label>
+                <label><input type="checkbox" name="interests" value="travel"> Travel</label>
+            </fieldset><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <p>Or reach me at <a href="mailto:hussainisajeda1@gmail.com">hussainisajeda1@gmail.com</a></p>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Personal Info Hub</p>
+    </footer>
+</body>
+</html>
