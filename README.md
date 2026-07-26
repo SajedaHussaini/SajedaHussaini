@@ -11,6 +11,7 @@
 ###
 
 <p data-importer="text" align="left">I’m a Frontend Developer from Afghanistan who enjoys building modern, accessible, and user-focused web applications.<br><br>I specialize in creating responsive, high-performance interfaces using React, Next.js, TypeScript, JavaScript, Tailwind CSS, Bootstrap, HTML, and CSS. I enjoy transforming ideas into clean, scalable, and production-ready applications while continuously improving my skills and exploring modern web technologies.<br><br>I’m passionate about solving real-world problems through technology and building projects that create meaningful impact. My interests include frontend architecture, UI/UX, performance optimization, accessibility, and full-stack web development.<br><br>I’m always eager to learn, collaborate with other developers, contribute to open-source projects, and grow as a software engineer while creating products that solve real problems.</p>
+--
 
 ###
 
@@ -42,6 +43,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
 </div>
 
+--
 ###
 
 <div data-importer="stats" align="center">
@@ -49,6 +51,7 @@
   <img src="https://raw.githubusercontent.com/SajedaHussaini/SajedaHussaini/languages-output/languages.svg?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph"  />
 </div>
 
+--
 ###
 
 <img data-importer="snake" src="https://raw.githubusercontent.com/SajedaHussaini/SajedaHussaini/snake-output/snake.svg" alt="Snake animation" />
@@ -65,6 +68,8 @@
   </a>
   <a href="https://x.com/HussainiSajeda" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
+
+--
   </a>
 </div>
 
