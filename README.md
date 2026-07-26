@@ -74,7 +74,6 @@ I’m always eager to learn, collaborate with other developers, contribute to op
 
 ###
 
-<h2 align="left">Contribution Graph</h2>
 
 ###
 
